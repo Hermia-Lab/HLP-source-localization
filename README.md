@@ -25,12 +25,7 @@ The released code focuses on the main algorithmic workflow of each method rather
 
 ```bash
 pip install -r requirements.txt
-
-# Run HLP example
 python examples/toy_example.py
-
-# Run baseline examples (all non-learning baselines)
-python examples/baseline_example.py
 ```
 
 GCNSI additionally requires PyTorch and PyTorch Geometric:
@@ -70,7 +65,7 @@ result = run_hbc(H, Y, K=2)
 result = run_hmcsm(H, Y, K=2, beta=0.3)
 result = run_slbic(H, Y, alpha=4.0)       # K determined automatically
 result = run_lpsi1(H, Y, alpha=0.5)       # K determined by local-maxima rule
-result = run_lpsi2(H, Y, rho=0.5, mu=0.5, alpha=0.5)       # K determined by local-maxima rule
+result = run_lpsi2(H, Y, rho=0.5, mu=0.5, alpha=0.5)
 ```
 
 ### GCNSI (requires PyTorch)
