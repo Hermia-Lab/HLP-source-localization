@@ -28,11 +28,6 @@ pip install -r requirements.txt
 python examples/toy_example.py
 ```
 
-GCNSI additionally requires PyTorch and PyTorch Geometric:
-```bash
-pip install torch torch_geometric
-```
-
 ## Input Format
 
 The input hypergraph is represented by an incidence matrix with shape `(num_nodes, num_hyperedges)`.
