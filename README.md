@@ -14,7 +14,7 @@ This repository provides the core implementation of **HLP** (Hybrid Label Propag
 - HCC — Higher-order Closeness Centrality
 - HBC — Higher-order Betweenness Centrality
 - HMCSM — Higher-order Monte Carlo-based Soft Boundary Estimation Method
-- SLBIC — Source Localisation Based on Infection Cluster (two-stage: SLBNE + SLBIC)
+- SLBIC — Source Localisation Based on Infection Cluster 
 - LPSI-1 — Label Propagation based Source Identification (node-level only)
 - LPSI-2 — LPSI with dual pairwise channels via the line graph of the projected graph
 - GCNSI — Graph Convolutional Networks based Source Identification
