@@ -28,6 +28,21 @@ pip install -r requirements.txt
 python examples/toy_example.py
 ```
 
+## Dataset
+
+The real-world hypergraph datasets used in the experiments are provided in the `data/` directory.
+
+The repository includes the following six datasets:
+
+- Bars-Rev_incmatrix.npy
+- Highschool_2012_hour_incmatrix.npy
+- HighSchool_2013_hour_incmatrix.npy
+- ht09_contact_hour_incmatrix.npy
+- iAF1260b_incmatrix.npy
+- iJO1366_incmatrix.npy
+
+Each dataset is stored as a NumPy `.npy` file containing the hypergraph incidence matrix.
+
 ## Input Format
 
 The input hypergraph is represented by an incidence matrix with shape `(num_nodes, num_hyperedges)`.
